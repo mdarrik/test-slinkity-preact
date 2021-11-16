@@ -1,0 +1,20 @@
+diff --git a/node_modules/html-react-parser/lib/dom-to-react.js b/node_modules/html-react-parser/lib/dom-to-react.js
+index f08745c..a558d8b 100644
+--- a/node_modules/html-react-parser/lib/dom-to-react.js
++++ b/node_modules/html-react-parser/lib/dom-to-react.js
+@@ -1,4 +1,4 @@
+-var React = require('react');
++var React = require('preact/compat');
+ var attributesToProps = require('./attributes-to-props');
+ var utilities = require('./utilities');
+ 
+diff --git a/node_modules/html-react-parser/lib/utilities.js b/node_modules/html-react-parser/lib/utilities.js
+index 16eaa6f..356bdb3 100644
+--- a/node_modules/html-react-parser/lib/utilities.js
++++ b/node_modules/html-react-parser/lib/utilities.js
+@@ -1,4 +1,4 @@
+-var React = require('react');
++var React = require('preact/compat');
+ var styleToJS = require('style-to-js').default;
+ 
+ /**
